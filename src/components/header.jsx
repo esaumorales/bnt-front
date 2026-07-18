@@ -24,7 +24,7 @@ export default function Header() {
                 </div>
                 <div>
                     <nav>
-                        <ul className="flex flex-row gap-16 text-text-secondary">
+                        <ul className="flex flex-row gap-16 text-t-secondary">
                             {navLinks.map((link) => {
                                 const isActive = activeLink === link.label;
                                 return (

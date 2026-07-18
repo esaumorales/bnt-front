@@ -115,6 +115,21 @@ code {
 
 
 @theme {
+
+  --animate-scroll: scroll 20s linear infinite;
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+
+
   --color-primary: #0A84FF;
   --color-primary-hover: #0066E8;
 
@@ -125,8 +140,8 @@ code {
   --color-surface: #FFFFFF;
   --color-surface-dark: #0F172A;
 
-  --color-text-primary: #111827;
-  --color-text-secondary: #4B5563;
+  --color-t-primary: #111827;
+  --color-t-secondary: #4B5563;
 
   --color-border: #E5E7EB;
 

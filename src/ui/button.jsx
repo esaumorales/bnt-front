@@ -1,7 +1,7 @@
 export default function Button({ children, variant = 'primary', size = 'base', icon, className }) {
     const variants = {
-        'primary' : 'p-3 gap-4 border border-gray-100 text-white  bg-surface-dark rounded-md w-fit flex flex-wrap',
-        'secondary' : 'p-3 gap-4 border border-gray-300 text-base font-semibold flex flex-wrap rounded-md w-fit',
+        'primary' : 'p-3 gap-4 border border-gray-100 text-white  bg-surface-dark rounded-md w-fit flex flex-wrap cursor-pointer',
+        'secondary' : 'p-3 gap-4 border border-gray-300 text-base font-semibold flex flex-wrap rounded-md w-fit cursor-pointer',
         'accent' : ''
     }
     const sizes = {
