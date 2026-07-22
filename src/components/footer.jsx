@@ -16,16 +16,16 @@ export default function Footer() {
                         Consultoría de software e innovación que impulsa la transformación digital de empresas a través de la tecnología.
                     </p>
                     <div className="flex gap-4 mt-2">
-                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-primary transition-colors flex items-center justify-center text-white">
+                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-t-primary transition-colors flex items-center justify-center text-t-secondary">
                             <Icon icon="mdi:linkedin" className="w-5 h-5" />
                         </a>
-                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-primary transition-colors flex items-center justify-center text-white">
+                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-t-primary transition-colors flex items-center justify-center text-t-secondary">
                             <Icon icon="mdi:facebook" className="w-5 h-5" />
                         </a>
-                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-primary transition-colors flex items-center justify-center text-white">
+                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-t-primary transition-colors flex items-center justify-center text-t-secondary">
                             <Icon icon="mdi:instagram" className="w-5 h-5" />
                         </a>
-                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-primary transition-colors flex items-center justify-center text-white">
+                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-t-primary transition-colors flex items-center justify-center text-t-secondary">
                             <Icon icon="mdi:youtube" className="w-5 h-5" />
                         </a>
                     </div>
