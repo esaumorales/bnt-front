@@ -5,7 +5,7 @@ import Button from "../ui/button";
 export default function Header() {
     const [activeLink, setActiveLink] = useState("Inicio");
     const navLinks = [
-        { label: "Inicio", href: "hero" },
+        { label: "Inicio", href: "home" },
         { label: "Tecnologias", href: "technologies" },
         { label: "Servicios", href: "services" },
         { label: "Procesos", href: "process" },
