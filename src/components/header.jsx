@@ -5,12 +5,12 @@ import Button from "../ui/button";
 export default function Header() {
     const [activeLink, setActiveLink] = useState("Inicio");
     const navLinks = [
-        { label: "Inicio", href: "#" },
-        { label: "Tecnologias", href: "#" },
-        { label: "Servicios", href: "#" },
-        { label: "Procesos", href: "#" },
-        { label: "Resultados", href: "#" },
-        { label: "Contacto", href: "#" }
+        { label: "Inicio", href: "hero" },
+        { label: "Tecnologias", href: "technologies" },
+        { label: "Servicios", href: "services" },
+        { label: "Procesos", href: "process" },
+        { label: "Resultados", href: "result" },
+        { label: "Contacto", href: "contact" }
     ];
 
     return (
@@ -30,7 +30,7 @@ export default function Header() {
                                 return (
                                     <li key={link.label}>
                                         <a
-                                            href={link.href}
+                                            href={`#${link.href}`}
                                             onClick={() => setActiveLink(link.label)}
                                             className={`text-lg transition-colors ${isActive
                                                     ? 'font-medium text-gray-900 relative after:content-[""] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[3px] after:bg-blue-600 after:rounded-t-sm'

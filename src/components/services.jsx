@@ -1,10 +1,10 @@
 import { Icon } from "@iconify/react";
 import Title from "../ui/title";
-import { processText } from "../utils/process";
+import { Technology } from "../utils/technology";
 
 export default function Services() {
     return (
-        <div className=" flex flex-col">
+        <div className=" flex flex-col" id="services">
             <div>
                 <Title variant="primary" titulo="NUESTROS SERVICIOS" />
 
@@ -15,13 +15,13 @@ export default function Services() {
 
                 </div>
                 <div className="w-1/2">
-                    <p className="text-left items-start w-1/2 text-t-secondary">
-                        Combinamos estrategia, tecnologia y creatividad para <br /> desarrollar soluciones que generan impacto real.
+                    <p className="text-left items-start w-1/2 text-t-secondary ">
+                        Combinamos estrategia, tecnologia y creatividad para  desarrollar soluciones que generan impacto real.
                     </p>
                 </div>
             </div>
             <div className="flex flex-wrap gap-4 mt-10 justify-around">
-                {processText.map((item) => (
+                {Technology.map((item) => (
                     <div key={item.id} className=" p-4 w-52 rounded-lg flex flex-col space-y-2">
                         <Icon icon={item.icon} className="text-6xl text-dark " />
 

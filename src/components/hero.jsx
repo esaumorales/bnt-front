@@ -5,7 +5,7 @@ import Header from "./header";
 export default function Hero() {
 
     return (
-        <div className="w-full flex flex-col min-h-[calc(100vh-4rem)] ">
+        <div className="w-full flex flex-col min-h-[calc(100vh-4rem)] " id="hero">
             <Header />
             <div className="flex items-center ">
                 <article className="flex flex-col space-y-8  w-1/2">

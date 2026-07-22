@@ -1,33 +1,26 @@
-
-export const processText = [
-    {
-        id: 1,
-        icon: "hugeicons:nano-technology",
-        title: "Consultoria Tecnologica",
-        text: "Analisamos tu negocio y diseñamos estrategias tecnologicas efectivas"
+export const ProcessText = [{
+        id: "01",
+        title: "Diagnostico",
+        text: "Analisamos tu situacion actual y detectamos oportunidades"
     },
     {
-        id: 2,
-        icon: "ph:code-duotone",
-        title: "Desarrollo de Software",
-        text: "Creamos aplicaciones escalables, seguras y de alto rendimiento"
+        id: "02",
+        title: "Estrategia",
+        text: "Diseñamos un plan a la medida alineado a tus objetivos"
     },
     {
-        id: 3,
-        icon: "fluent:brain-sparkle-32-regular",
-        title: "Inteligencia Artificial",
-        text: "Automatizamos procesos y extraemos valor de tus datos."
+        id: "03",
+        title: "Desarrollo",
+        text: "Construimos la solucion con metodologias ágiles y estandares de calidad"
     },
     {
-        id: 4,
-        icon: "streamline-freehand:responsive-design-expand",
-        title: "Diseño UI/UX",
-        text: "Diseñamos experiencias centradas en el usuario que generan resultados"
+        id: "04",
+        title: "Implementación",
+        text: "Desplegamos la solucion y capaticamos a tu equipo"
     },
     {
-        id: 5,
-        icon: "tabler:cloud-code",
-        title: "Cloud & DevOps",
-        text: "Implementamos soluciones en la nube con maxima disponibilidad y seguridad"
+        id: "05",
+        title: "Resultadods",
+        text: "Medimos el impacto y optimizamos para seguir creciendo"
     },
 ]
